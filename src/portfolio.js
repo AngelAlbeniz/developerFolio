@@ -24,7 +24,7 @@ const greeting = {
 const socialMediaLinks = {
   linkedin: 'https://www.linkedin.com/in/angel-albeniz-marquinez-a90586149',
   gmail: 'angelalbeniz96@gmail.com',
-  instgram: 'https://www.instagram.com/angelalbeniz',
+  instagram: 'https://www.instagram.com/angelalbeniz',
   // Instagram and Twitter are also supported in the links!
   display: true, // Set true to display this section, defaults to false
 };
