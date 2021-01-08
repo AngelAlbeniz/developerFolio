@@ -5,7 +5,7 @@
 import emoji from 'react-easy-emoji';
 
 const illustration = {
-  animated: true, // set to false to use static SVG
+  animated: false, // set to false to use static SVG
 };
 
 const greeting = {
@@ -111,24 +111,14 @@ const educationInfo = {
   schools: [
     {
       schoolName: 'UPNA',
-      logo: require('./assets/images/UPNALogo.png'),
-      subHeader: 'Master of Science in Computer Science',
-      duration: 'September 2017 - April 2019',
-      desc: 'Participated in the research of XXX and published 3 papers.',
+      logo: require('./assets/images/UPNALogoXS.png'),
+      subHeader: 'Bachelors degree in Telecommunications Engineering',
+      duration: 'September 2014 - June 2018',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Specialized in Advance Communications',     
       ],
     },
-    {
-      schoolName: 'Stanford University',
-      logo: require('./assets/images/UPNALogo.png'),
-      subHeader: 'Bachelor of Science in Computer Science',
-      duration: 'September 2013 - April 2017',
-      desc:
-        'Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...',
-      descBullets: ['Lorem ipsum dolor sit amet, consectetur adipiscing elit'],
-    },
+
   ],
 };
 
@@ -196,7 +186,7 @@ const openSource = {
   githubConvertedToken: process.env.REACT_APP_GITHUB_TOKEN,
   githubUserName: 'saadpasta', // Change to your github username to view your profile in Contact Section.
   showGithubProfile: 'true', // Set true or false to show Contact profile using Github, defaults to true
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
