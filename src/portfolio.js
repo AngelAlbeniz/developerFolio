@@ -15,7 +15,7 @@ const greeting = {
     'PAGINA EN CONSTRUCION!! 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
   ),
   resumeLink:
-    'https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing',
+    'https://drive.google.com',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -49,56 +49,48 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: 'html-5',
-      fontAwesomeClassname: 'fab fa-html5',
+      skillName: 'Drone expert',
+      fontAwesomeClassname: 'fab fa-avianex',
     },
     {
-      skillName: 'css3',
-      fontAwesomeClassname: 'fab fa-css3-alt',
+      skillName: 'Electronic design',
+      fontAwesomeClassname: 'fas fa-microchip',
     },
     {
-      skillName: 'sass',
-      fontAwesomeClassname: 'fab fa-sass',
+      skillName: 'Robotics',
+      fontAwesomeClassname: 'fas fa-robot',
     },
     {
-      skillName: 'JavaScript',
-      fontAwesomeClassname: 'fab fa-js',
+      skillName: '3D design',
+      fontAwesomeClassname: 'fas fa-cubes',
     },
     {
-      skillName: 'reactjs',
-      fontAwesomeClassname: 'fab fa-react',
+      skillName: 'Telecom',
+      fontAwesomeClassname: 'fas fa-broadcast-tower',
     },
     {
-      skillName: 'nodejs',
-      fontAwesomeClassname: 'fab fa-node',
+      skillName: 'Technical drawing',
+      fontAwesomeClassname: 'fas fa-drafting-compass',
     },
     {
-      skillName: 'swift',
-      fontAwesomeClassname: 'fab fa-swift',
+      skillName: 'C++',
+      fontAwesomeClassname: 'fas fa-code',
     },
     {
-      skillName: 'npm',
-      fontAwesomeClassname: 'fab fa-npm',
-    },
-    {
-      skillName: 'sql-database',
-      fontAwesomeClassname: 'fas fa-database',
-    },
-    {
-      skillName: 'aws',
-      fontAwesomeClassname: 'fab fa-aws',
-    },
-    {
-      skillName: 'firebase',
-      fontAwesomeClassname: 'fas fa-fire',
-    },
-    {
-      skillName: 'python',
+      skillName: 'Python',
       fontAwesomeClassname: 'fab fa-python',
     },
     {
-      skillName: 'docker',
-      fontAwesomeClassname: 'fab fa-docker',
+      skillName: 'Sql-database',
+      fontAwesomeClassname: 'fas fa-database',
+    },
+    {
+      skillName: 'Php',
+      fontAwesomeClassname: 'fab fa-php',
+    },
+    {
+      skillName: 'Pilot',
+      fontAwesomeClassname: 'fas fa-plane',
     },
   ],
   display: true, // Set false to hide this section, defaults to true
@@ -128,11 +120,11 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: 'Frontend/Design', //Insert stack or technology you have experience in
+      Stack: 'Drone development', //Insert stack or technology you have experience in
       progressPercentage: '90%', //Insert relative proficiency in percentage
     },
     {
-      Stack: 'Backend',
+      Stack: 'Electronic design',
       progressPercentage: '70%',
     },
     {
