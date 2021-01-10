@@ -205,15 +205,15 @@ const bigProjects = {
 const achievementSection = {
   title: emoji('Achievements And Certifications 🏆 '),
   subtitle:
-    'Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !',
+    'Achievements, Certifications, and Some Cool Stuff that I have done !',
 
   achievementsCards: [
     {
-      title: 'Google Code-In Finalist',
+      title: 'Private pilot licence (PPL)',
       subtitle:
-        'First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.',
-      image: require('./assets/images/codeInLogo.webp'),
-      footerLink: [
+        'Obtained the PPL license at the Real Aeroclub de Navarra in january 2021',
+      image: require('./assets/images/RANLogo.png'),
+	  footerLink: [
         {
           name: 'Certification',
           url:
@@ -232,7 +232,7 @@ const achievementSection = {
       ],
     },
     {
-      title: 'Google Assistant Action',
+      title: 'Olimpiada de dibujo',
       subtitle:
         'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
       image: require('./assets/images/googleAssistantLogo.webp'),
@@ -246,7 +246,7 @@ const achievementSection = {
     },
 
     {
-      title: 'PWA Web App Developer',
+      title: 'Tecnun',
       subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
       image: require('./assets/images/pwaLogo.webp'),
       footerLink: [
