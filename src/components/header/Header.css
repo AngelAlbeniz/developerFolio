@@ -52,10 +52,7 @@
   line-height: normal;
 }
 .header .logo-name {
-  font-family: "NothingYouCouldDo-Regular";
-  font-weight: bold;
-  font-variant-ligatures: no-common-ligatures;
-  -webkit-font-variant-ligatures: no-common-ligatures;
+  font-family: "NothingYouCouldDo";
   padding: 0 10px;
 }
 
