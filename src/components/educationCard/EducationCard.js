@@ -50,6 +50,12 @@ export default function EducationCard({ school }) {
                 <ul>
                   <GetDescBullets descBullets={school.descBullets} />
                 </ul>
+				<p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+					Final project:{" "}
+					<a href="https://academica-e.unavarra.es/xmlui/bitstream/handle/2454/29293/TFG%20%C3%81ngel%20Alb%C3%A9niz%20Marqu%C3%ADnez.pdf?sequence=2&isAllowed=y">
+					TFG
+					</a>
+				</p>
               </div>
             </div>
           </div>

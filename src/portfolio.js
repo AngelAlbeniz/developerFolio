@@ -12,10 +12,10 @@ const greeting = {
   username: 'Angel Albeniz Marquinez',
   title: "Hi all, I'm Angel",
   subTitle: emoji(
-    'PAGINA EN CONSTRUCION!! 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.'
+    'Telecommunications Engineer with with great passion for technology and aviation. I love to face new projects, carry them out and never stop learning along the way.'
   ),
   resumeLink:
-    'https://drive.google.com',
+    'https://drive.google.com/file/d/1zTjC09nZOaVMN6mkRX5PEHCDFhiVNT0S/view?usp=sharing',
   displayGreeting: true, // Set false to hide this section, defaults to true
 };
 
@@ -33,14 +33,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: 'What I do',
-  subTitle: 'CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK',
+  subTitle: '',
   skills: [
     emoji(
-      '⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications'
+      '⚡ Development of drone solutions using Ardupilot and PX4 ecosystems'
     ),
-    emoji('⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks'),
+    emoji('⚡ Complete hardware development of custom electronics'),
     emoji(
-      '⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean'
+      '⚡ Other tools: SDRadio, VNA analysis & tuning, Photoshop,  Arduinio, Linux ...'
     ),
   ],
 
@@ -49,7 +49,7 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: 'Drone expert',
+      skillName: 'UAV expert',
       fontAwesomeClassname: 'fab fa-avianex',
     },
     {
@@ -59,6 +59,10 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: 'Robotics',
       fontAwesomeClassname: 'fas fa-robot',
+    },
+	{
+      skillName: 'PCB desing',
+      fontAwesomeClassname: 'fas fa-layer-group',
     },
     {
       skillName: '3D design',
@@ -107,7 +111,7 @@ const educationInfo = {
       subHeader: 'Bachelors degree in Telecommunications Engineering',
       duration: 'September 2014 - June 2018',
       descBullets: [
-        'Specialized in Advance Communications',     
+        'Specialized in Advance Communications', 		
       ],
     },
 
@@ -146,10 +150,10 @@ const workExperiences = {
       companylogo: require('./assets/images/HelixNorthLogo.png'),
       date: 'April 2018 – Present',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Chief engineer in charge of the design and development of UAV solutions.',
       descBullets: [
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
+        'Exhibitor at the international trade fair, INTERGEO',
+        'International implementation of drone solutions in LATAM countries.',
       ],
     },
     {
@@ -158,7 +162,7 @@ const workExperiences = {
       companylogo: require('./assets/images/AINLogo.png'),
       date: 'May 2019 – June 2019',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Lecturer giving advanced course on drone technology and its industrial applications.',
     },
     {
       role: 'Lecturer',
@@ -166,7 +170,7 @@ const workExperiences = {
       companylogo: require('./assets/images/DonapeaLogo.png'),
       date: 'May 2018 – June 2018',
       desc:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        'Lecturer giving CAP course for teacher qualification on Introduction to Drone Technology, Design and Construction.',
     },
   ],
 };
@@ -203,58 +207,40 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji('Achievements And Certifications 🏆 '),
+  title: emoji(' Certifications and Achievements 🏆 '),
   subtitle:
     'Achievements, Certifications, and Some Cool Stuff that I have done !',
 
   achievementsCards: [
     {
-      title: 'Private pilot licence (PPL)',
+      title: 'Private pilot license (PPL)',
       subtitle:
         'Obtained the PPL license at the Real Aeroclub de Navarra in january 2021',
       image: require('./assets/images/RANLogo.png'),
 	  footerLink: [
-        {
-          name: 'Certification',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing',
-        },
-        {
-          name: 'Award Letter',
-          url:
-            'https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing',
-        },
-        {
-          name: 'Google Code-in Blog',
-          url:
-            'https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html',
-        },
+        
       ],
     },
     {
       title: 'Olimpiada de dibujo',
       subtitle:
-        'Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.',
-      image: require('./assets/images/googleAssistantLogo.webp'),
+        '3rd place in the Technical Drawing Olympics by the School of Architecture of the University of Navarre in 2014.',
+      image: require('./assets/images/UNAVLogo.png'),
       footerLink: [
         {
-          name: 'View Google Assistant Action',
+          name: 'View',
           url:
-            'https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en',
+            'https://www.diariodenavarra.es/noticias/navarra/tierra_estella_valdizarbe/2014/04/12/un_alumno_del_puy_una_olimpiada_dibujo_tecnico_154890_1006.html',
         },
       ],
     },
 
     {
-      title: 'Tecnun',
-      subtitle: 'Completed Certifcation from SMIT for PWA Web App Development',
-      image: require('./assets/images/pwaLogo.webp'),
+      title: 'IX Concurso Ingenio y Diseño',
+      subtitle: '1st place in the 9th Competition of Ingenuity and Design by the School of Engineering of the University of Navarre in 2013.',
+      image: require('./assets/images/TecnunLogo.png'),
       footerLink: [
-        { name: 'Certification', url: '' },
-        {
-          name: 'Final Project',
-          url: 'https://pakistan-olx-1.firebaseapp.com/',
-        },
+        
       ],
     },
   ],
