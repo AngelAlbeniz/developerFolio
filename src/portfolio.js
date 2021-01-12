@@ -38,7 +38,7 @@ const skillsSection = {
     emoji(
       '⚡ Development of drone solutions using Ardupilot and PX4 ecosystems'
     ),
-    emoji('⚡ Complete hardware development of custom electronics'),
+    emoji('⚡ Complete hardware design of custom electronics'),
     emoji(
       '⚡ Other tools: SDRadio, VNA analysis & tuning, Photoshop,  Arduinio, Linux ...'
     ),
