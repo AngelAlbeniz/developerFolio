@@ -145,10 +145,22 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: 'Hardware Engineer',
+      company: 'FERCHAU Spain S.L.U',
+      companylogo: require('./assets/images/FerchauLogo.png'),
+      date: 'January 2022 – Present',
+      desc:
+        'Chief engineer in charge of the design and development of UAV solutions.',
+      descBullets: [
+        'Exhibitor at the international trade fair, INTERGEO',
+        'International implementation of drone solutions in LATAM countries.',
+      ],
+    },
+    {
       role: 'Chief Engineer',
       company: 'HelixNorth',
       companylogo: require('./assets/images/HelixNorthLogo.png'),
-      date: 'April 2018 – Present',
+      date: 'April 2018 – january 2022',
       desc:
         'Chief engineer in charge of the design and development of UAV solutions.',
       descBullets: [
@@ -212,6 +224,19 @@ const achievementSection = {
     'Achievements, Certifications, and Some Cool Stuff that I have done !',
 
   achievementsCards: [
+    {
+      title: 'Paper Publication',
+      subtitle:
+        'Autonomous landing and avoidance system virtual validation approach',
+      image: require('./assets/images/IEEE.png'),
+	  footerLink: [
+      {
+        name: 'View',
+        url:
+          'https://ieeexplore.ieee.org/document/9836209',
+      },
+      ],
+    },
     {
       title: 'Private pilot license (PPL)',
       subtitle:
