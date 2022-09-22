@@ -129,11 +129,11 @@ const techStack = {
     },
     {
       Stack: 'Electronic design',
-      progressPercentage: '70%',
+      progressPercentage: '80%',
     },
     {
       Stack: 'Programming',
-      progressPercentage: '60%',
+      progressPercentage: '70%',
     },
   ],
   displayCodersrank: false, // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -150,10 +150,10 @@ const workExperiences = {
       companylogo: require('./assets/images/FerchauLogo.png'),
       date: 'January 2022 – Present',
       desc:
-        'Chief engineer in charge of the design and development of UAV solutions.',
+        'R&D development on UAV platforms, integration of new hardware and control systems for advanced navigation.',
       descBullets: [
-        'Exhibitor at the international trade fair, INTERGEO',
-        'International implementation of drone solutions in LATAM countries.',
+        'UAV platform development and flight operations management.',
+        'Project and multidisciplinary teams management.',
       ],
     },
     {
@@ -221,13 +221,13 @@ const bigProjects = {
 const achievementSection = {
   title: emoji(' Certifications and Achievements 🏆 '),
   subtitle:
-    'Achievements, Certifications, and Some Cool Stuff that I have done !',
+    'Publications, Achievements, and Some Cool Stuff that I have done !',
 
   achievementsCards: [
     {
       title: 'Paper Publication',
       subtitle:
-        'Autonomous landing and avoidance system virtual validation approach',
+        '"Autonomous landing and avoidance system virtual validation approach" presented at ICUAS ’22 in Dubrovnik Croatia',
       image: require('./assets/images/IEEE.png'),
 	  footerLink: [
       {
